@@ -1,0 +1,17 @@
+<div class="container">
+    <h2>Pago a Prestamos</h2> 
+
+    <table class="table">
+        <thead>
+            <th>Fecha de Pago</th>
+            <th>Valor Pagado</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of fechaPago">
+                <td>{{item.fechaPago}}</td>
+                <td>{{item.valor}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

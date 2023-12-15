@@ -1,0 +1,17 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aquamarine;
+    margin: 20px;
+
+}
+
+.nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}

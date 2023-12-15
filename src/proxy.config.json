@@ -1,0 +1,7 @@
+{
+    "/api/*": {
+        "target": "https://m1recruitment.aspsols.com/api-infoempleado/?cedula=${cedula}",
+        "secure": false,
+        "logLevel": "debug"
+    }
+}

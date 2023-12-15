@@ -1,0 +1,35 @@
+.container{
+    width: 90%;
+    margin: auto;
+    border:  solid 1px rgb(244, 242, 242);
+    border-radius: 15px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1), 
+                4px 0px 10px rgba(0, 0, 0, 0.1), 
+                -4px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.infoEmpleado_h2{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(97, 97, 195);
+}
+
+.row{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+ 
+.infoE_label{
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(97, 97, 195);
+}
+
+.form{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,47 @@
+
+
+<div class="container">
+    <form [formGroup]="infoEmpleadoForm"  class="infoE" (keydown.enter)="onSubmit()" method="post">
+        <h2 class="infoEmpleado_h2">Información del Empleado</h2>
+        <div class="row">
+            <div class="form">
+                <label class="infoE_label">Numero de Cédula</label>
+                <input type="text" formControlName="cedula" class="infoE_label"
+                placeholder="Numero de Cédula"/>
+            </div>
+            <div class="form">
+                <label class="infoE_label">Nombre del Empleado</label>
+                <input type="text" formControlName="nombreEmpleado" class="infoE_input"/>
+            </div>
+            <div class="form">
+
+                <label class="infoE_label">Fecha de Nacimiento</label>
+                <input type="text" formControlName="fechaNacimiento" class="infoE_input"/>
+            </div>
+            <div class="form">
+                <label class="infoE_label">Salario</label>
+                <input type="text" formControlName="salario" class="infoE_input"/>
+            </div>
+            </div>
+        <div class="row">
+            <div class="form">
+
+                <label class="infoE_label">Nit de la empresa</label>
+                <input type="text" formControlName="nit" class="infoE_label"/>
+            </div>
+            <div class="form">
+
+                <label class="infoE_label">Nombre de la empresa</label>
+                <input type="text" formControlName="nombreEmpresa" class="infoE_input"/>
+            </div>
+            <div class="form">
+                <label class="infoE_label">Dirección</label>
+                <input type="text" formControlName="direccion" class="infoE_input"/>
+            </div>
+            <div class="form">
+                <label class="infoE_label">Fecha de Ingreso</label>
+                <input type="text" formControlName="fechaIngreso" class="infoE_input"/>
+            </div>
+        </div>
+    </form>
+</div>
