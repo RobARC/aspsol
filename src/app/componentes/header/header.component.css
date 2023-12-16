@@ -1,17 +1,50 @@
 .container{
-    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    
     display: flex;
     flex-flow: row;
     justify-content: space-around;
     align-items: center;
-    background-color: aquamarine;
-    margin: 20px;
+    background-color: rgb(4, 4, 45);
+    margin: auto;
 
 }
 
 .nav {
+    width: 70%;
+    height: 90hv;
     display: flex;
     flex-flow: row;
     justify-content: space-between;
     align-items: center;
+
+}
+
+h1{
+    background-color: rgb(4, 4, 45);
+    color: aliceblue;
+    margin: 5px;
+}
+
+h2{
+    background-color: rgb(55, 55, 89);
+    color: aliceblue;
+    margin-left: 10px;
+   
+}
+
+button {
+    margin: 10px;
+    background-color: rgb(25, 178, 112);
+    color: aliceblue;
+    border-radius: 5px;
+    height: 40px;
+}
+
+.nav{
+    background-color: rgb(55, 55, 89);
+   
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
 }
